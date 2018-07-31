@@ -1,0 +1,134 @@
+/*
+  ---  CSS -> body
+*/
+
+
+/**
+  --- MEDIA > 768 px --- ( mobile )
+**/
+
+@media (max-width:767px){
+#Presentation{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #0097A7;
+    padding: 2em auto;
+    }
+    .presentation-image{
+        width: 190px;
+        height: 150px;
+		border-radius: 100%;
+		overflow: hidden
+    }
+    .presentation-titre{
+        font-size: 3.5em;
+		font-family: "Passion One";
+        letter-spacing: .1em;
+        margin: 0.2em 0.3em;
+        color: white
+    }
+    .presentation-slogan{
+        font-size: 2.5em;
+		font-family: "Amatic SC";
+        letter-spacing: .1em;
+        margin: 0.2em 0.3em;
+        color: white
+    }
+    #byline{
+        display: none
+    }
+    .byline{
+        display: none
+    }
+}
+/*
+  --- MEDIA de 767 à 1023px --- ( tablette )
+*/
+@media (min-width:768px) and (max-width:1023px){
+#Presentation{
+    align-items: center;
+	display: flex;
+	justify-content: center;
+	padding: 0.9em;
+    }
+    .presentation-image{
+        width: 190px;
+		float: left;
+		height: 150px;
+		border-radius: 100%;
+		overflow: hidden
+    }
+#PresentationTexte{
+        margin-left: 1em
+    }    
+    .presentation-titre{
+        font-size: 3.5em;
+		font-family: "Passion One"
+    }
+    .presentation-slogan{
+        font-size: 2.5em;
+		font-family: "Amatic SC"
+    }
+}
+
+/*
+  --- MEDIA > 1024px --- ( ordi )
+*/
+
+@media (min-width:1024px){
+#Presentation{
+    display: none
+    }
+    .starwars-demo {
+  perspective: 1024px;
+  transform-style: preserve3d;
+}
+
+/* General styles and layout */
+ #PresentationOrdi{
+    background: #000 url(//cssanimation.rocks/demo/starwars/images/bg.jpg);
+    height: 25vh;
+    left: 50%;
+    position: absolute;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.byline span {
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+}
+
+.star, .wars, .byline {
+  position: absolute;
+}
+
+.star {
+  top: -0.75em;
+}
+
+.wars {
+  bottom: -0.5em;
+}
+
+.byline {
+  color: #fff;
+  font-family: "ITC Serif Gothic", Lato;
+  font-size: 2.25em;
+  left: -2em;
+  letter-spacing: 0.4em;
+  right: -2em;
+  text-align: center;
+  text-transform: uppercase;
+  top: 29%;
+}
+}
+
+    
+
+
+
