@@ -1,7 +1,7 @@
 /*
   ---  CSS -> body
 */
-
+@import url(https://fonts.googleapis.com/css?family=Expletus+Sans);
 
 /**
   --- MEDIA > 768 px --- ( mobile )
@@ -156,15 +156,14 @@ footer{
     }
 /** Main **/
     #main{
-      height: 6vh;
+      
     }
 
 /** Footer **/
     footer{
         height: 5vh;
-        width: 100vw;
-        bottom: 1em;
-        padding: 1em;
+        width: 100%;
+        padding: 0.5em;
         justify-content: center;
         text-align: center;
         background-color: black;
