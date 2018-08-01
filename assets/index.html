@@ -5,14 +5,19 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<title>Kevin GOMEZ</title>
         <link rel="stylesheet" href="../styles/reset.css">
-        <link rel="stylesheet" href="../styles/competences.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.js"integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+        crossorigin="anonymous"></script>
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Arvo|Passion+One" rel="stylesheet">
         <link rel="stylesheet" href="../styles/style.css">
         <link rel="stylesheet" href="../styles/competences.css">
         <link rel="stylesheet" href="../assets/js.js">
+        <link rel="stylesheet" href="../assets/timeline.js">
 	</head>
 	<body>
         <header>
@@ -47,7 +52,7 @@
                 <main id="main">
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                            <!-- Debut du main /Presentation -->
+                            <!-- Debut du main /Presentation
                             <div class="infos">
                                 <h1>Qui suis-je?</h1>
                                 <p>j'ai 27 ans et j'habite sur la cote d'azur à Antibes (06) dont je suis originaire.</p>
@@ -82,71 +87,106 @@
                                 <p>Dans mon temps libre je me passionne pour les jeux multijoueurs depuis mes 10 ans j'ai pu connaitre les début d'internet en 56k et comment cela à changer jusqu'à aujourd'hui, mais maintenant je suis surtout sur le web pour approfondir mes connaissances et trouvez un travail dans le milieu du web et pouvoir prendre part à cette evolution !</p>
                                 <p>Dans mon temps de repos j'apprécie tout au temps lire que regarder des vidéos sur des sujet tel que l'histoire, la sociologie, la théologie monotéiste, l'ethnitologie, économie, écologie ,   d'autres...</p>
                             </div>
-                        </div>
+                             -->
+                            
+                            <div id="infos">
+		<h1>Formation & Expérience</h1>
+                            </div>
+	<section id="cd-timeline" class="cd-container">
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Title of section 1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+				<span class="cd-date">Jan 14</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-movie">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-movie.svg" alt="Movie">
+			</div> <!-- cd-timeline-img -->
                     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                    <section>
-                    <div class="container">
-                                <div class="row">
-                                    <div class="col-md-2 col-lg-2"></div>
-                                    <div class="col-md-8 col-lg-8">
-                                    <div class="barWrapper">
-                                    <span class="progressText"><B>HTML5</B></span>
-                                    <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" >   
-                                    <span  class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span>     
-                                    </div>
-                                    </div>
-                                    <div class="barWrapper">
-                                    <span class="progressText"><B>CSS3</B></span>
-                                    <div class="progress ">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="10" aria-valuemax="100" style="">
-                                    <span  class="popOver" data-toggle="tooltip" data-placement="top" title="75%"> </span>  
-                                    </div>
-                                    </div>
-                                    </div>
-                                    <div class="barWrapper">
-                                    <span class="progressText"><B>BOOTSTRAP</B></span>
-                                    <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                                    <span  class="popOver" data-toggle="tooltip" data-placement="top" title="65%"> </span>  
-                                    </div>
-                                    </div>
-                                    </div>
-                                    <div class="barWrapper">
-                                    <span class="progressText"><B>JQUERY</B></span>
-                                    <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
-                                    <span  class="popOver" data-toggle="tooltip" data-placement="top" title="55%"> </span>  
-                                    </div>
-                                    </div>
-                                    </div>
-                                    <div class="barWrapper">
-                                    <span class="progressText"><B>MYSQL</B></span>
-                                    <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                                    <span  class="popOver" data-toggle="tooltip" data-placement="top" title="70%"> </span>  
-                                    </div>
-                                    </div>
-                                    </div>
-                                    <div class="barWrapper">
-                                    <span class="progressText"><B>PHP</B></span>
-                                    <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                    <span  class="popOver" data-toggle="tooltip" data-placement="top" title="75%"> </span> 
-                                    </div>
-                                    </div>
-                                    </div>
-                                    </div>
-                                    <div class="col-md-2 col-lg-2"></div>
-                                    </div>
-                                    </div>
-                                    </div>
-                                    </section>
-                                    </div>
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Ici on pourra me contacter !</div>
+                        <ul id="containerCompetence">
+	<li class="categorieCompetence">
+		<h2>Frontend</h2>
+    <!-- HTML5 -->
+    <p style="width:80%" data-value="80">HTML5</p>
+		<progress max="100" value="80" class="html5">
+			<div class="progress-bar">
+				<span style="width: 80%">80%</span>
+			</div>
+		</progress>
+		
+		<!-- CSS3 -->
+    <p style="width:60%" data-value="60">CSS3</p>
+		<progress max="100" value="60" class="css3">
+			<div class="progress-bar">
+				<span style="width: 60%">60%</span>
+			</div>
+		</progress>
+		
+		<!-- jQuery -->
+    <p style="width:50%" data-value="50">jQuery</p>
+		<progress max="100" value="50" class="jquery">
+			<div class="progress-bar">
+				<span style="width: 50%">50%</span>
+			</div>
+		</progress>
+        
+        <!-- REACT -->
+    <p style="width:65%" data-value="65">REACT</p>
+		<progress max="100" value="65" class="jquery">
+			<div class="progress-bar">
+				<span style="width: 65%">65%</span>
+			</div>
+		</progress>
+	</li>
+  
+	<li class="categorieCompetence">
+		<h2>Backend</h2>
+		
+    <!-- JAVA -->
+    <p style="width:75%" data-value="75">JAVA</p>
+		<progress max="100" value="75" class="python">
+			<div class="progress-bar">
+				<span style="width: 75%">75%</span>
+			</div>
+		</progress>
+		
+		<!-- PHP -->
+    <p style="width:65%" data-value="65">PHP</p>
+		<progress max="100" value="65" class="php">
+			<div class="progress-bar">
+				<span style="width: 65%">65%</span>
+			</div>
+		</progress>
+		
+		<!-- Node.js -->
+    <p style="width:50%"  data-value="35">Node.js</p>
+    <progress max="100" value="35" class="node-js">
+			<div class="progress-bar">
+				<span style="width: 35%">35%</span>
+			</div>
+		</progress>		
+	</li>
+</ul>
+
+                    </div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class ="box">
+                            <img src ="../assets/react.png" alt="" class="box-img">
+                            <h1>Developpeur Front-end</h1>
+                            <h4>Javascript - Angular - React </h4>
+                            <p>	Front-end web developer is responsible for implementing visual elements that users see and interact with in a web application. They are usually supported by back-end web developers, who are responsible for server-side application logic and integration of the work front-end developers do</p>
+                            </div>
+                        </div>
                     </div>
                  </main>
             <!-- Je suis le footer -->
-         <footer><a href="#">Merci de regarder mon cv !</a></footer>
+         <footer>Merci de regarder mon cv !</footer>
 	</body>
 </html>
